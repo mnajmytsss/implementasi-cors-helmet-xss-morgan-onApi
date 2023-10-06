@@ -1,7 +1,7 @@
 const cors = require('cors')
 
 const origin = [
-  "http://week-15-mnajmytsss.vercel.app", 
+  "https://week-15-mnajmytsss.vercel.app", 
   "https://week-15-mnajmytsss.cyclic.app",
 
 ];
