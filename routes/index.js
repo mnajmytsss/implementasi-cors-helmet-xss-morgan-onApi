@@ -6,7 +6,7 @@ const preventAttackController = require("./preventAttackRoutes")
 const router = Router();
 
 router.use("/", dashboardRoutes);
-router.use("/api/attack", preventAttackController)
-router.use("/api/books", bookRoutes);
+router.use("/api/v1/attack", preventAttackController)
+router.use("/api/v1/books", bookRoutes);
 
 module.exports = router;

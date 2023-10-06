@@ -1,6 +1,10 @@
 const cors = require('cors')
 
-const origin = ["http://localhost:5173", "https://busy-puce-gosling-robe.cyclic.app/"];
+const origin = [
+  "http://localhost:5173", 
+  "https://week-15-mnajmytsss.cyclic.app/",
+  
+];
 const partnerOrigin = ["http://localhost:5174"];
 
 const corsOptionsDelegate = (req, callback) => {
