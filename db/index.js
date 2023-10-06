@@ -1,8 +1,9 @@
 const { MongoClient } = require('mongodb');
+const dotenv = require("dotenv")
 
 const dbConnection = async () => {
     try {
-        const client = await new MongoClient("mongodb+srv://najmy:Smandak12@cluster0.xxlfbbe.mongodb.net").connect();
+        const client = await new MongoClient(process.env.DB_PROD).connect();
         const db = client.db('week-15');
         const collection = db.collection('Books');
         return { db, collection };
