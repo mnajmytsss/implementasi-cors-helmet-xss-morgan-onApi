@@ -2,7 +2,7 @@ const cors = require('cors')
 
 const origin = [
   "https://week-15-mnajmytsss.vercel.app", 
-  "https://charming-erin-sunbonnet.cyclic.cloud",
+  "https://charming-erin-sunbonnet.cyclic.cloud/",
 ];
 const partnerOrigin = [
   "https://week15.avicena.dev",
