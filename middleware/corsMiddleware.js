@@ -2,8 +2,7 @@ const cors = require('cors')
 
 const origin = [
   "https://week-15-mnajmytsss.vercel.app", 
-  "https://week-15-mnajmytsss.cyclic.app",
-
+  "https://charming-erin-sunbonnet.cyclic.cloud",
 ];
 const partnerOrigin = [
   "https://week15.avicena.dev",
@@ -30,7 +29,7 @@ const corsOptionsDelegate = (req, callback) => {
 };
 
 const corsMiddleware = (app) => {
-    app.use(cors(corsOptionsDelegate));
+    app.use(cors());
 };
 
 module.exports = corsMiddleware;
